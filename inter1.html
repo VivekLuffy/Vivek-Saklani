@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Member Team Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .p1{
+            margin: 0;
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+        }
+        .team-section-1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem 1rem;
+            background-color: #f4f4f4;
+            background-color: blueviolet;
+        }
+        .team-section-2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem 1rem;
+            background-color: purple;
+        }
+        .team-section-3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem 1rem;
+            background-color: blueviolet;
+        }
+        .team-member {
+            background: white;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: calc(33% - 2rem);
+            max-width: 300px;
+            text-align: center;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .team-member h2 {
+            margin: 0.5rem 0 0.25rem;
+            font-size: 1.5rem;
+        }
+        .team-member p {
+            margin: 0;
+            color: #666;
+        }
+        @media(max-width: 768px) {
+            .team-member {
+                width: calc(50% - 2rem);
+            }
+        }
+        @media(max-width: 480px) {
+            .team-member {
+                width: calc(100% - 2rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to VeriTech Developer Team</h1>
+    </header>
+    <p class="p1">Front-End Developer</p>
+    <section class="team-section-1">
+        
+        <div class="team-member">
+            <img src="download (1).jpeg" alt="Member 1">
+            <h2>John Doe</h2>
+            <p>CEO,HTML</p>
+        </div>
+        <div class="team-member">
+            <img src="download (2).jpeg" alt="Member 2">
+            <h2>Jane Smith</h2>
+            <p>HTML,CSS</p>
+        </div>
+        <div class="team-member">
+            <img src="download (3).jpeg" alt="Member 3">
+            <h2>Bob Johnson</h2>
+            <p>React Js</p>
+        </div>
+        <div class="team-member">
+            <img src="download (4).jpeg" alt="Member 3">
+            <h2>Bob Johnson</h2>
+            <p>Swift</p>
+        </div>
+     
+    </section>
+    <p class="p1">Back-End Developer</p>
+    <section class="team-section-2">
+        <div class="team-member">
+            <img src="download (5).jpeg" alt="Member 1">
+            <h2>John Doe</h2>
+            <p>JavaScript</p>
+        </div>
+        <div class="team-member">
+            <img src="download (6).jpeg" alt="Member 2">
+            <h2>Jane Smith</h2>
+            <p>PHP</p>
+        </div>
+        <div class="team-member">
+            <img src="download (7).jpeg" alt="Member 3">
+            <h2>Bob Johnson</h2>
+            <p>Ruby</p>
+        </div>
+        <div class="team-member">
+            <img src="download (3).jpeg" alt="Member 3">
+            <h2>Bob Johnson</h2>
+            <p>Ruby,PHP</p>
+        </div>
+       
+    </section>
+    <p class="p1">All Rounder Developer</p>
+    <section class="team-section-3">
+        <div class="team-member">
+            <img src="download (1).jpeg" alt="Member 1">
+            <h2>John Doe</h2>
+            <p>PHP,React Js</p>
+        </div>
+        <div class="team-member">
+            <img src="download (4).jpeg" alt="Member 2">
+            <h2>Jane Smith</h2>
+            <p>HTML,Ruby</p>
+        </div>
+        <div class="team-member">
+            <img src="download (6).jpeg" alt="Member 3">
+            <h2>Bob Johnson</h2>
+            <p>Lead Developer</p>
+        </div>
+        <div class="team-member">
+            <img src="download (7).jpeg" alt="Member 3">
+            <h2>Bob Johnson</h2>
+            <p>Lead Developer</p>
+        </div>
+      
+    </section>
+</body>
+</html>
