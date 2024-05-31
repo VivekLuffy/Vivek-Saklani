@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    background: url('car-launch-banner.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #cc0000;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slides img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.details, .features, .cta {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.details h2, .features h2, .cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.details p, .features p, .cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.features {
+    background-color: #fff;
+}
+
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta button:hover {
+    background-color: #cc0000;
+}
